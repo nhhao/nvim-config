@@ -22,7 +22,8 @@ return require("packer").startup(
     ---
     use {
       "nvim-telescope/telescope.nvim",
-      requires = {{"nvim-lua/plenary.nvim"}}
+      requires = {{"nvim-lua/plenary.nvim"}},
+      tag = "nvim-0.5.1"
     }
     ---
     use {
@@ -46,6 +47,7 @@ return require("packer").startup(
     -------------- LSP ---------------
     use "neovim/nvim-lspconfig"
     use "onsails/lspkind.nvim"
+    use "tami5/lspsaga.nvim"
     ---
     use "hrsh7th/cmp-nvim-lsp"
     use "hrsh7th/cmp-buffer"

@@ -26,3 +26,7 @@ map("n", "<leader>d", "<cmd>bdelete<CR>", silent_options)
 map("n", "<leader>f", "<cmd>Telescope find_files<CR>", silent_options)
 map("n", "<C-p>", "<cmd>Telescope find_files<CR>", silent_options)
 map("n", "<leader>g", "<cmd>Telescope live_grep<CR>", silent_options)
+
+-- saga
+map("n", "K", "<cmd>Lspsaga hover_doc<CR>", silent_options)
+map("n", "ca", "<cmd>Lspsaga code_action<CR>", silent_options)
