@@ -114,20 +114,15 @@ _G.packer_plugins = {
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
-  ["dart-vim-plugin"] = {
+  ["flutter-reload.vim"] = {
     loaded = true,
-    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/dart-vim-plugin",
-    url = "https://github.com/dart-lang/dart-vim-plugin"
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/flutter-reload.vim",
+    url = "https://github.com/hankchiutw/flutter-reload.vim"
   },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
-  },
-  ["hot-reload.vim"] = {
-    loaded = true,
-    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/hot-reload.vim",
-    url = "https://github.com/reisub0/hot-reload.vim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,

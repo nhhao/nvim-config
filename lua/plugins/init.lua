@@ -63,7 +63,7 @@ return require("packer").startup(
       run = ":GoUpdateBinaries"
     }
     ---
-    use "dart-lang/dart-vim-plugin"
-    use "reisub0/hot-reload.vim"
+    -- use "dart-lang/dart-vim-plugin"
+    use "hankchiutw/flutter-reload.vim"
   end
 )

@@ -6,7 +6,7 @@ local silent_options = {noremap = true, silent = true}
 
 -- editor
 map("n", "G", "Gzz", options)
-map("n", "<CR>", "o<Esc>k", options)
+-- map("n", "<CR>", "o<Esc>k", options)
 map("n", "<C-o>", "i<CR><Esc>b", options)
 map("v", "<", "<gv", silent_options)
 map("v", ">", ">gv", silent_options)
@@ -30,3 +30,6 @@ map("n", "<leader>g", "<cmd>Telescope live_grep<CR>", silent_options)
 -- saga
 map("n", "K", "<cmd>Lspsaga hover_doc<CR>", silent_options)
 map("n", "ca", "<cmd>Lspsaga code_action<CR>", silent_options)
+
+-- vsnip
+-- map("i", "<Tab>", "vsnip#jumpable(1)", silent_options)

@@ -13,9 +13,6 @@ require("editor/telescope")
 -- lualine
 require("editor/lualine")
 
--- autopairs
--- require("editor/autopairs")
-
 -- colorizer
 require("colorizer").setup({})
 
@@ -24,3 +21,9 @@ require("editor/formatter")
 
 -- treesitter
 require("editor/treesitter")
+
+-- indent
+require("editor/indent")
+
+-- folding
+require("editor/folding")
