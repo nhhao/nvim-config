@@ -27,7 +27,8 @@ require("telescope").setup {
       "web",
       "windows",
       "macos",
-      "pubspec.lock"
+      "pubspec.lock",
+      "linux"
     },
     generic_sorter = require "telescope.sorters".get_generic_fuzzy_sorter,
     path_display = {},

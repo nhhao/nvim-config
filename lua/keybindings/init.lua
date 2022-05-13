@@ -30,6 +30,7 @@ map("n", "<leader>g", "<cmd>Telescope live_grep<CR>", silent_options)
 -- saga
 map("n", "K", "<cmd>Lspsaga hover_doc<CR>", silent_options)
 map("n", "ca", "<cmd>Lspsaga code_action<CR>", silent_options)
+map("n", "<leader>;", "<cmd>Lspsaga diagnostic_jump_next<CR>", silent_options)
 
 -- vsnip
 -- map("i", "<Tab>", "vsnip#jumpable(1)", silent_options)

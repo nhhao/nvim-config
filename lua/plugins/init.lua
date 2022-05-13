@@ -40,7 +40,8 @@ return require("packer").startup(
     ---
     use "b3nj5m1n/kommentary"
     ---
-    use "mhartington/formatter.nvim"
+    -- use "mhartington/formatter.nvim"
+		use "lukas-reineke/lsp-format.nvim"
     ---
     use "nvim-treesitter/nvim-treesitter"
 
@@ -57,13 +58,15 @@ return require("packer").startup(
     use "hrsh7th/cmp-vsnip"
     use "hrsh7th/vim-vsnip"
     use "hrsh7th/vim-vsnip-integ"
+
+		-------- Specific language ----------
     ---
     use {
       "fatih/vim-go",
       run = ":GoUpdateBinaries"
     }
-    ---
-    -- use "dart-lang/dart-vim-plugin"
     use "hankchiutw/flutter-reload.vim"
+		
+
   end
 )

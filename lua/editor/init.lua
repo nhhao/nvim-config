@@ -16,9 +16,6 @@ require("editor/lualine")
 -- colorizer
 require("colorizer").setup({})
 
--- formatter
-require("editor/formatter")
-
 -- treesitter
 require("editor/treesitter")
 
@@ -27,3 +24,6 @@ require("editor/indent")
 
 -- folding
 require("editor/folding")
+
+-- kommentary
+require("editor/kommentary")

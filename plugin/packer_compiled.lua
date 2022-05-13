@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/flutter-reload.vim",
     url = "https://github.com/hankchiutw/flutter-reload.vim"
   },
-  ["formatter.nvim"] = {
-    loaded = true,
-    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/formatter.nvim",
-    url = "https://github.com/mhartington/formatter.nvim"
-  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -133,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/kommentary",
     url = "https://github.com/b3nj5m1n/kommentary"
+  },
+  ["lsp-format.nvim"] = {
+    loaded = true,
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/lsp-format.nvim",
+    url = "https://github.com/lukas-reineke/lsp-format.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
@@ -198,11 +198,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim",
     url = "https://github.com/dracula/vim"
-  },
-  ["vim-go"] = {
-    loaded = true,
-    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-go",
-    url = "https://github.com/fatih/vim-go"
   },
   ["vim-vsnip"] = {
     loaded = true,
