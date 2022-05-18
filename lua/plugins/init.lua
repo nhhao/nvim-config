@@ -66,7 +66,12 @@ return require("packer").startup(
       run = ":GoUpdateBinaries"
     }
     use "hankchiutw/flutter-reload.vim"
-		
+		use "rust-lang/rust.vim"
+		use {
+			"evanleck/vim-svelte",
+			requires = {"pangloss/vim-javascript", "evanleck/vim-svelte"}
+		}
+		use "leafOfTree/vim-vue-plugin"
 
   end
 )

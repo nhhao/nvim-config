@@ -189,6 +189,11 @@ _G.packer_plugins = {
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -199,6 +204,21 @@ _G.packer_plugins = {
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim",
     url = "https://github.com/dracula/vim"
   },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-javascript"] = {
+    loaded = true,
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-javascript",
+    url = "https://github.com/pangloss/vim-javascript"
+  },
+  ["vim-svelte"] = {
+    loaded = true,
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-svelte",
+    url = "https://github.com/evanleck/vim-svelte"
+  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-vsnip",
@@ -208,6 +228,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ",
     url = "https://github.com/hrsh7th/vim-vsnip-integ"
+  },
+  ["vim-vue-plugin"] = {
+    loaded = true,
+    path = "/Users/nhhao/.local/share/nvim/site/pack/packer/start/vim-vue-plugin",
+    url = "https://github.com/leafOfTree/vim-vue-plugin"
   }
 }
 

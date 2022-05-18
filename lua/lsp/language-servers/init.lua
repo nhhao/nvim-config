@@ -26,6 +26,10 @@ lsp.volar.setup {
   },
 }
 
+lsp.svelte.setup({
+	on_attach = fmt.on_attach
+})
+
 lsp.tailwindcss.setup {
   capabilities = capabilities,
 	on_attach = fmt.on_attach,
@@ -35,3 +39,6 @@ lsp.dartls.setup {
   capabilities = capabilities,
 	on_attach = fmt.on_attach,
 }
+
+lsp.rust_analyzer.setup({})
+vim.cmd("let g:rustfmt_autosave = 1")
